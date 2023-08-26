@@ -1,0 +1,3 @@
+# MoreMinerals
+minecraft高版本fabric模组
+旨在原版minecraft基础上增加亿些矿物
