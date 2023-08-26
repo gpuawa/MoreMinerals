@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "more-minerals",
+	"version": "1.0.0",
+	"name": "More Minerals",
+	"description": "Add some new minerals to Minecraft",
+	"authors": [
+		"GPUawa"
+	],
+	"license": "MIT",
+	"icon": "assets/more-minerals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "name.more_minerals.MoreMinerals"
+		],
+		"client": [
+			"name.more_minerals.MoreMineralsClient"
+		],
+		"fabric-datagen": [
+			"name.more_minerals.MoreMineralsDataGenerator"
+		]
+	},
+	"mixins": [
+		"more-minerals.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
